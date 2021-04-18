@@ -1,0 +1,99 @@
+The rules of 5D Chess with Multiverse Time Travel are generalized from the rules of ordinary chess.
+The 5D in the name refers to the typical two spatial dimensions,a third unused spatial dimension, a fourth dimension representing time, and a fifth dimension representing parallel timelines.
+When pieces travel to the past, paradoxes are avoided by using a branching timeline system.
+
+Subjects:
+1) What is checkmate?
+2) How are a piece's available moves determined?
+3) What happens when a piece travels to the past?
+4) Who's turn is it, and on which timelines must they move?
+
+1) What is checkmate?
+    If a player has no way to end their turn (no way to move The Present without leaving themselves in check), then they are checkmated.
+	For a game with a single timeline, this means all of their moves leave them in check (equivalent to ordinary chess).
+	For a game with multiple timelines, it means every combination of moves leaves them in check and every time travel move leaves them in check.
+	A move that attacks a king's past is a valid check (it is not a special case, consider that applying the move would create a timeline with a captured king on it).
+
+2) How are a piece's available moves determined?
+    The existing rules that determine a piece's available moves are not specific to two dimensions.
+	The movement rules are interpreted using additional coordinates to describe a piece's position.
+	At the start of the game, white's queenside rook is on square A1. Technically, that rook is on turn 1, timeline 0, file A, rank 1.
+	Just like in ordinary chess, a rook moves in a line with one dimension.
+	A rook moving forward across the board is moving in one dimension becuase it is changing its row, but keeping its column, turn, and timeline constant.
+	A rook moving into the past would change its turn, but keep its row, column, and timeline constant.
+
+2a) Why are two boards equal to one turn?
+    In ordinary chess, each numbered turn of the game is one move from white and one from black.
+	For example, "1. e4 e5 2. f4 ..." is notation for the King's Gambit opening.
+	Therefore, one turn is the distance between your move and your previous move (with your opponent's reply in between).
+
+2b) Piece movement descriptions:
+	A rook moves any distance in one dimension.
+
+	A bishop moves any distance in two dimensions at once. A direction defined by two dimensions is called a diagonal. In ordinary chess, bishops move along row/column diagonals.
+
+	A knight moves two squares in one dimension, then one square in a different dimension.
+
+	A queen moves any distance in any number of dimensions at once. This is more than just rook+bishop movement, becuase it includes triagonals and quadragonals.
+
+	A king can move one square in any number of dimensions at once.
+
+	A pawn moves one or two squares at a time in the "forward" direction. In ordinary chess, "forward" means towards your opponent's back row.
+		Here, it also means "forward" towards your opponent's back timeline.
+		A pawn can attack forward on row/column diagonals and forward on turn/timeline diagonals.
+
+
+3) What happens when a piece travels to the past?
+    If a player moves a piece to a board where a move has already occured (part of a timeline's history), a new branch is created becuase history cannot be altered.
+	The latest move on the new timeline is the time travelling piece's arrival. The latest move on the original timeline is the time travelling piece's departure.
+	If a piece is moved to a board where a move has not yet been played (no established history), no branch occurs.
+
+4) Who's turn is it, and on which timelines must they move?
+    A player makes moves as long as it is their turn in The Present.
+	The Present is wherever the earliest board without a move is on any active timeline.
+	To complete a turn, a player may need to make multiple moves to advance all the active timelines to the next turn.
+	If a player can create a new timeline, they can rewind The Present as a result of that single move, even if they had multiple boards in the present.
+	If a player branches one or more times before their opponent branches, the extra branches will be inactive, and won't affect The Present until their opponent makes more branches.
+
+Thanks for reading!
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+time lines
+
+								1.1	
+				1		____________________________
+0			____________|_________________________
+-----------|---------------------------
+hacia abajo el otro color
+
+
+
+
+turnos
+
+al avanzar usamos el nº para determinar el turno (par un color impar para el otro)
+
+para algo mas visual poner un reborde del color del turno (como en el juego original)
+
+piezas
+
+♔ ->  King
+♕ -> queen
+♖ -> rook
+♗ -> bishop
+♘ -> knight
+♙ -> pawn
+
+Tablero base
+8	♜	♞	♝	♛	♚	♝	♞	♜
+7	♟	♟	♟	♟	♟	♟	♟	♟
+6	
+5	
+4	
+3	
+2	♙	♙	♙	♙	♙	♙	♙	♙
+1	♖	♘	♗	♕	♔	♗	♘	♖
+	a	b	 c	  d	   e	f	 g	  h
